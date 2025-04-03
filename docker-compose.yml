@@ -1,0 +1,27 @@
+version: '3.8'
+services:
+  # Development service
+  app-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    ports:
+      - "8889:8080"
+    volumes:
+      - ./:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+    command: npm run serve
+    stdin_open: true
+    tty: true
+
+  # Production service
+  app-prod:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8890:80"
+    environment:
+      - NODE_ENV=production

@@ -1,0 +1,16 @@
+{
+    "recommendations": [
+        "jock.svg",
+        "naumovs.color-highlight",
+        "ms-vscode-remote.remote-containers",
+        "fabiospampinato.vscode-diff",
+        "ms-azuretools.vscode-docker",
+        "codezombiech.gitignore",
+        "shardulm94.trailing-spaces",
+        "stuart.unique-window-colors",
+        "vue.volar",
+        "redhat.vscode-yaml",
+        "visualstudioexptteam.vscodeintellicode",
+        "christian-kohler.npm-intellisense"
+    ]
+}

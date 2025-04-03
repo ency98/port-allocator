@@ -1,0 +1,137 @@
+/* src/assets/main.css */
+
+/* Base styles */
+* {
+  box-sizing: border-box;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Dark Theme Variables (Default) */
+body, body.dark-theme {
+  --bg_h: #1d2021;
+  --bg: #282828;
+  --bg_s: #32302f;
+  --bg1: #3c3836;
+  --bg2: #504945;
+  --bg3: #665c54;
+  --bg4: #7c6f64;
+
+  --fg: #fbf1c7;
+  --fg1: #ebdbb2;
+  --fg2: #d5c4a1;
+  --fg3: #bdae93;
+  --fg4: #a89984;
+
+  --red: #fb4934;
+  --green: #b8bb26;
+  --yellow: #fabd2f;
+  --blue: #83a598;
+  --purple: #d3869b;
+  --aqua: #8ec07c;
+  --gray: #928374;
+  --orange: #fe8019;
+
+  --red-dim: #cc2412;
+  --green-dim: #98971a;
+  --yellow-dim: #d79921;
+  --blue-dim: #458588;
+  --purple-dim: #b16286;
+  --aqua-dim: #689d6a;
+  --gray-dim: #a89984;
+  --orange-dim: #d65d0e;
+
+  /* Additional theme variables for UI elements */
+  --background-color: var(--bg);
+  --text-color: var(--fg);
+  --header-bg: var(--bg1);
+  --card-bg: var(--bg_s);
+  --input-bg: var(--bg1);
+  --input-border: var(--bg3);
+  --button-primary: var(--blue-dim);
+  --button-primary-hover: var(--blue);
+  --button-secondary: var(--bg3);
+  --button-danger: var(--red-dim);
+  --button-edit: var(--orange-dim);
+  --button-text: var(--fg);
+  --table-header-bg: var(--bg1);
+  --table-row-even: var(--bg_s);
+  --table-row-hover: var(--bg2);
+  --table-border: var(--bg3);
+  --result-bg: var(--bg2);
+  --result-border: var(--green-dim);
+  --port-number-color: var(--green);
+  --conflict-color: var(--red);
+  --theme-toggle-bg: #504945;
+}
+
+/* Light Theme Variables */
+body.light-theme {
+  --bg_h: #f9f5d7;
+  --bg: #fbf1c7;
+  --bg_s: #f2e5bc;
+  --bg1: #ebdbb2;
+  --bg2: #d5c4a1;
+  --bg3: #bdae93;
+  --bg4: #a89984;
+
+  --fg: #282828;
+  --fg1: #3c3836;
+  --fg2: #504945;
+  --fg3: #665c54;
+  --fg4: #7c6f64;
+
+  --red: #9d0006;
+  --green: #79740e;
+  --yellow: #b57614;
+  --blue: #076678;
+  --purple: #8f3f71;
+  --aqua: #427b58;
+  --orange: #af3a03;
+  --gray: #928374;
+
+  --red-dim: #cc2412;
+  --green-dim: #98971a;
+  --yellow-dim: #d79921;
+  --blue-dim: #458598;
+  --purple-dim: #b16286;
+  --aqua-dim: #689d6a;
+  --orange-dim: #d65d0e;
+  --gray-dim: #7c6f64;
+
+  /* Additional theme variables for UI elements */
+  --background-color: var(--bg);
+  --text-color: var(--fg);
+  --header-bg: var(--bg1);
+  --card-bg: var(--bg_s);
+  --input-bg: var(--bg1);
+  --input-border: var(--bg3);
+  --button-primary: var(--blue-dim);
+  --button-primary-hover: var(--blue);
+  --button-secondary: var(--bg3);
+  --button-danger: var(--red);
+  --button-edit: var(--orange);
+  --button-text: var(--fg);
+  --theme-toggle-bg: #d5c4a1;
+  --table-header-bg: var(--bg1);
+  --table-row-even: var(--bg_s);
+  --table-row-hover: var(--bg2);
+  --table-border: var(--bg3);
+  --result-bg: var(--bg1);
+  --result-border: var(--green);
+  --port-number-color: var(--green);
+  --conflict-color: var(--red);
+}
+
+/* Apply theme variables to body */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
