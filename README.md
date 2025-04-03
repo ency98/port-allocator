@@ -2,7 +2,7 @@
 
 A user-friendly web application for tracking and managing port allocations for Docker containers, services, and stacks across hosts and clusters.
 
-![Port Allocator Web App](https://placekitten.com/800/400)
+![Port Allocator Web App](docs/screenshots/SCR-20250403-ppoq.png)
 
 ## Overview
 
@@ -142,3 +142,22 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 🙋 Support
 
 If you encounter any issues or have questions, please file an issue in the repository or contact your system administrator.
+
+## Screenshots
+
+![1](docs/screenshots/SCR-20250403-ppoq.png)
+![2](docs/screenshots/SCR-20250403-pucv.png)
+![3](docs/screenshots/SCR-20250403-pwyi.png)
+![4](docs/screenshots/SCR-20250403-pxgi.png)
+![5](docs/screenshots/SCR-20250403-pxon.png)
+![6](docs/screenshots/SCR-20250403-pqxb.png)
+![7](docs/screenshots/SCR-20250403-pukh.png)
+![8](docs/screenshots/SCR-20250403-pxac.png)
+![9](docs/screenshots/SCR-20250403-pxjj.png)
+![10](docs/screenshots/SCR-20250403-prua.png)
+![11](docs/screenshots/SCR-20250403-pwuj.png)
+![12](docs/screenshots/SCR-20250403-pxbw.png)
+![13](docs/screenshots/SCR-20250403-pxmd.png)
+![14](docs/screenshots/SCR-20250403-pxjj.png)
+![15](docs/screenshots/SCR-20250403-pxmd.png)
+![16](docs/screenshots/SCR-20250403-pxon.png)
